@@ -31,7 +31,8 @@ Published repository:
 
 - https://github.com/Kosmoray/dayan-ai-workshop
 - Branch: `main`
-- Published commit: `a4de1838aa8e6573fc8a5d6d1d10f23b28545f49`
+- Initial public content commit: `a83c7cfdf53588fa57db6ed6826e45672f20e73e`
+- Release status commits were pushed to `main` after the initial content release.
 
 Commands run from repository root:
 
