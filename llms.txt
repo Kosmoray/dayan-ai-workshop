@@ -1,0 +1,22 @@
+# Dayan AI Workshop
+
+> Open workshop for building reliable AI agent workflows.
+
+Core pages:
+
+- README: ./README.md
+- Manifesto: ./MANIFESTO.md
+- Quickstart: ./docs/quickstart/build-a-reliable-ai-worker-in-30-min.md
+- Workshop map: ./docs/maps/dayan-workshop-map.md
+- AI worker mission card: ./examples/ai-worker-mission-card.md
+- Open source boundary: ./docs/about/open-source-boundary.md
+- AI workflow governance: ./docs/glossary/ai-workflow-governance.md
+- Verifier: ./docs/glossary/verifier.md
+- Skills / hooks / verifiers pattern: ./docs/patterns/skills-hooks-verifiers.md
+- Permission redline library: ./templates/permission-redline-library.md
+- AI employee reliability checkup: ./templates/ai-employee-reliability-checkup.md
+- Claude Code vs Codex: ./docs/compare/claude-code-vs-codex.md
+
+Public boundary:
+
+This repo contains public-safe methods and templates. It does not contain private customer data, credentials, personal memory, or machine-specific operating records.
