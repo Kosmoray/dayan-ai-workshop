@@ -25,7 +25,13 @@ grep -RInE "/Users/|/Desktop|\\.cache|\\.config|private workspace" . || true
 
 Date: 2026-07-02
 
-Status: public P0 release candidate. Remote creation and push approved by project owner in the current session.
+Status: public P0 release completed.
+
+Published repository:
+
+- https://github.com/Kosmoray/dayan-ai-workshop
+- Branch: `main`
+- Published commit: `a83c7cfdf53588fa57db6ed6826e45672f20e73e`
 
 Commands run from repository root:
 
@@ -38,9 +44,9 @@ grep -RInE --exclude=SANITIZATION.md "/Users/|/Desktop|\\.cache|\\.config|privat
 Results:
 
 - Credentials scan: expected `.gitignore` hits for `.env` and `.env.*`; no credential value found.
-- Internal code-name scan: no hits.
-- Customer-identifying scan: no hits.
-- Local path scan: no hits.
+- Internal code-name scan: no private code names found.
+- Customer-identifying scan: only generic template language such as `real client`; no actual customer identity found.
+- Local path scan: only generic scan examples; no machine-specific path found.
 
 Known retained items:
 
