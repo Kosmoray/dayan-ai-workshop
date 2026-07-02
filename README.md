@@ -4,6 +4,8 @@ Open workshop for building reliable AI agent workflows.
 
 大衍工坊：给团队打磨 AI 员工、AI 编程工具、自动化脚本和人工审批流程的公开工坊。
 
+![Dayan AI Workshop Map](assets/dayan-workshop-map.svg)
+
 > Stop shipping vibes. Build AI work that can be replayed, checked, and trusted.
 >
 > 别再只交付“看起来很像”的 AI 结果。把 AI 工作做成能回放、能检查、能交接的流程。
@@ -76,7 +78,10 @@ The core idea is simple: do not ask one prompt to carry the whole company. Split
 | `MANIFESTO.md` | The public stance behind Dayan AI Workshop. |
 | `docs/quickstart/build-a-reliable-ai-worker-in-30-min.md` | A fast path from vague AI task to governed workflow. |
 | `docs/maps/dayan-workshop-map.md` | One-page architecture map. |
+| `docs/gallery/README.md` | Three redacted before / after workflow examples. |
 | `examples/ai-worker-mission-card.md` | Copyable mission card for an AI worker. |
+| `tools/verify_public_release.py` | Local verifier for public release safety. |
+| `drafts/social/` | Launch post drafts for English and Chinese channels. |
 | `docs/about/open-source-boundary.md` | What belongs in public, redacted, internal, and secret layers. |
 | `docs/glossary/ai-workflow-governance.md` | A plain definition of AI workflow governance. |
 | `docs/glossary/verifier.md` | What a verifier is and how to write one. |
@@ -112,6 +117,12 @@ Start with the smallest useful loop:
 For a concrete walkthrough, start here:
 
 `docs/quickstart/build-a-reliable-ai-worker-in-30-min.md`
+
+Run the public-release verifier:
+
+```bash
+python3 tools/verify_public_release.py
+```
 
 ## Status
 

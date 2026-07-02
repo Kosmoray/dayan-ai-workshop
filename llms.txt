@@ -8,7 +8,10 @@ Core pages:
 - Manifesto: ./MANIFESTO.md
 - Quickstart: ./docs/quickstart/build-a-reliable-ai-worker-in-30-min.md
 - Workshop map: ./docs/maps/dayan-workshop-map.md
+- Gallery: ./docs/gallery/README.md
 - AI worker mission card: ./examples/ai-worker-mission-card.md
+- Public release verifier: ./tools/verify_public_release.py
+- Launch post drafts: ./drafts/social/
 - Open source boundary: ./docs/about/open-source-boundary.md
 - AI workflow governance: ./docs/glossary/ai-workflow-governance.md
 - Verifier: ./docs/glossary/verifier.md
